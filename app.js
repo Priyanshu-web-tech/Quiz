@@ -67,7 +67,7 @@ const loadQuestion=()=>{
     }
 reset()
 const data=questions[index]
-quesBox.innerHTML=`${index+1})${data.que}`
+quesBox.innerHTML=`Q${index+1})${data.que}`
 optionInputs[0].nextElementSibling.innerText=data.a
 optionInputs[1].nextElementSibling.innerText=data.b
 optionInputs[2].nextElementSibling.innerText=data.c
